@@ -1,0 +1,152 @@
+[
+    {
+        "equation": "Calculate magnetic flux $Z$: $$Z = B A \\cos(\\theta)$$ Given field $B=0.5$, area $A=2.0$, and angle $\\theta=0.785$ rad.",
+        "predicted_python": "python -c \"import math; B=0.5; A=2.0; theta=0.785; Z=B*A*math.cos(theta); print(Z)\"",
+        "result": 0.7073882691671998
+    },
+    {
+        "equation": "Find the relativistic momentum $Z$: $$Z = \\frac{mv}{\\sqrt{1 - v^2/c^2}}$$ Given mass $m=1$, velocity $v=2.5e8$, and light speed $c=3e8$.",
+        "predicted_python": "python -c \"import math; m=1; v=2.5e8; c=3e8; Z=(m*v)/math.sqrt(1 - (v**2)/(c**2)); print(Z)\"",
+        "result": 452267016.8666454
+    },
+    {
+        "equation": "Calculate Young's Modulus $Z$: $$Z = \\frac{F L_0}{A \\Delta L}$$ Given force $F=2000$, original length $L_0=5$, area $A=0.01$, and extension $\\Delta L=0.002$.",
+        "predicted_python": "python -c \"F=2000; L0=5; A=0.01; dL=0.002; Z=(F*L0)/(A*dL); print(Z)\"",
+        "result": 499999999.99999994
+    },
+    {
+        "equation": "Find the radioactive decay constant $Z$: $$Z = \\frac{\\ln(2)}{t_{1/2}}$$ Given half-life $t_{1/2}=5730$.",
+        "predicted_python": "python -c \"import math; t_half=5730; Z=math.log(2)/t_half; print(Z)\"",
+        "result": 0.00012096809433855938
+    },
+    {
+        "equation": "Calculate centripetal acceleration $Z$: $$Z = \\frac{v^2}{r}$$ Given tangential velocity $v=15$ and radius $r=5$.",
+        "predicted_python": "python -c \"v=15; r=5; Z=(v**2)/r; print(Z)\"",
+        "result": 45.0
+    },
+    {
+        "equation": "Find the specific heat capacity $Z$: $$Z = \\frac{Q}{m \\Delta T}$$ Given heat energy $Q=5000$, mass $m=2.5$, and temp change $\\Delta T=15$.",
+        "predicted_python": "python -c \"Q=5000; m=2.5; dT=15; Z=Q/(m*dT); print(Z)\"",
+        "result": 133.33333333333334
+    },
+    {
+        "equation": "Calculate the fluid flow rate $Z$: $$Z = A v$$ Given pipe area $A=0.05$ and fluid velocity $v=3.2$.",
+        "predicted_python": "python -c \"A=0.05; v=3.2; Z=A*v; print(Z)\"",
+        "result": 0.16000000000000003
+    },
+    {
+        "equation": "Find the pressure difference $Z$ using Bernoulli's equation (horizontal pipe): $$Z = \\frac{1}{2} \\rho (v_2^2 - v_1^2)$$ Given $\\rho=1000, v_2=5, v_1=2$.",
+        "predicted_python": "python -c \"rho=1000; v2=5; v1=2; Z=0.5*rho*(v2**2 - v1**2); print(Z)\"",
+        "result": 10500.0
+    },
+    {
+        "equation": "Calculate the resistance $Z$ of a wire: $$Z = \\frac{\\rho L}{A}$$ Given resistivity $\\rho=1.68e-8$, length $L=10$, and area $A=1e-6$.",
+        "predicted_python": "python -c \"rho=1.68e-8; L=10; A=1e-6; Z=(rho*L)/A; print(Z)\"",
+        "result": 0.16800000000000004
+    },
+    {
+        "equation": "Find the capacitive reactance $Z$: $$Z = \\frac{1}{2\\pi f C}$$ Given frequency $f=50$ and capacitance $C=10e-6$.",
+        "predicted_python": "python -c \"import math; f=50; C=10e-6; Z=1/(2*math.pi*f*C); print(Z)\"",
+        "result": 318.30988618379064
+    },
+    {
+        "equation": "Calculate the power of a lens $Z$ in Diopters: $$Z = \\frac{1}{f}$$ Given focal length $f=0.25$ meters.",
+        "predicted_python": "python -c \"f=0.25; Z=1/f; print(Z)\"",
+        "result": 4.0
+    },
+    {
+        "equation": "Find the capillary rise $Z$: $$Z = \\frac{2\\gamma \\cos(\\theta)}{\\rho g r}$$ Given surface tension $\\gamma=0.072$, contact angle $\\theta=0$, $\\rho=1000, g=9.8, r=0.001$.",
+        "predicted_python": "python -c \"import math; gamma=0.072; theta=0; rho=1000; g=9.8; r=0.001; Z=(2*gamma*math.cos(theta))/(rho*g*r); print(Z)\"",
+        "result": 0.014693877551020406
+    },
+    {
+        "equation": "Calculate the rate of heat transfer $Z$ (Fourier's Law): $$Z = \\frac{k A \\Delta T}{d}$$ Given conductivity $k=400$, area $A=2$, $\\Delta T=50$, and thickness $d=0.05$.",
+        "predicted_python": "python -c \"k=400; A=2; dT=50; d=0.05; Z=(k*A*dT)/d; print(Z)\"",
+        "result": 800000.0
+    },
+    {
+        "equation": "Find the orbital velocity $Z$: $$Z = \\sqrt{\\frac{GM}{r}}$$ Given $G=6.674e-11, M=5.972e24, r=6.77e6$.",
+        "predicted_python": "python -c \"import math; G=6.674e-11; M=5.972e24; r=6.77e6; Z=math.sqrt((G*M)/r); print(Z)\"",
+        "result": 7672.884597739077
+    },
+    {
+        "equation": "Calculate surface gravity $Z$ of a planet: $$Z = \\frac{GM}{r^2}$$ Given $G=6.674e-11, M=6.41e23, r=3.39e6$.",
+        "predicted_python": "python -c \"G=6.674e-11; M=6.41e23; r=3.39e6; Z=(G*M)/(r**2); print(Z)\"",
+        "result": 3.7225868205114816
+    },
+    {
+        "equation": "Find the mass equivalent $Z$ of energy: $$Z = \\frac{E}{c^2}$$ Given energy $E=9e13$ and $c=3e8$.",
+        "predicted_python": "python -c \"E=9e13; c=3e8; Z=E/(c**2); print(Z)\"",
+        "result": 0.001
+    },
+    {
+        "equation": "Calculate luminous intensity $Z$ at a distance: $$Z = \\frac{I}{r^2}$$ Given source intensity $I=1500$ and distance $r=5$.",
+        "predicted_python": "python -c \"I=1500; r=5; Z=I/(r**2); print(Z)\"",
+        "result": 60.0
+    },
+    {
+        "equation": "Find the de Broglie wavelength $Z$: $$Z = \\frac{h}{mv}$$ Given $h=6.626e-34, m=9.11e-31, v=2e6$.",
+        "predicted_python": "python -c \"h=6.626e-34; m=9.11e-31; v=2e6; Z=h/(m*v); print(Z)\"",
+        "result": 3.636663007683864e-10
+    },
+    {
+        "equation": "Calculate the work done $Z$ by an expanding gas at constant pressure: $$Z = P(V_f - V_i)$$ Given $P=101325, V_f=0.5, V_i=0.2$.",
+        "predicted_python": "python -c \"P=101325; Vf=0.5; Vi=0.2; Z=P*(Vf - Vi); print(Z)\"",
+        "result": 30397.5
+    },
+    {
+        "equation": "Find the root mean square current $Z$: $$Z = \\frac{I_{peak}}{\\sqrt{2}}$$ Given peak current $I_{peak}=10$.",
+        "predicted_python": "python -c \"import math; I_peak=10; Z=I_peak/math.sqrt(2); print(Z)\"",
+        "result": 7.071067811865475
+    },
+    {
+        "equation": "Calculate the spring constant $Z$: $$Z = \\frac{F}{x}$$ Given force $F=200$ and extension $x=0.4$.",
+        "predicted_python": "python -c \"F=200; x=0.4; Z=F/x; print(Z)\"",
+        "result": 500.0
+    },
+    {
+        "equation": "Find the area $Z$ of a regular hexagon: $$Z = \\frac{3\\sqrt{3}}{2}s^2$$ Given side length $s=6$.",
+        "predicted_python": "python -c \"import math; s=6; Z=((3*math.sqrt(3))/2)*(s**2); print(Z)\"",
+        "result": 93.53074360871938
+    },
+    {
+        "equation": "Calculate the sum $Z$ of interior angles of a polygon: $$Z = 180(n - 2)$$ Given number of sides $n=8$.",
+        "predicted_python": "python -c \"n=8; Z=180*(n-2); print(Z)\"",
+        "result": 1080.0
+    },
+    {
+        "equation": "Find the continuous growth rate $Z$: $$Z = \\frac{\\ln(P_f / P_i)}{t}$$ Given final population $P_f=5000$, initial $P_i=2000$, and time $t=10$.",
+        "predicted_python": "python -c \"import math; Pf=5000; Pi=2000; t=10; Z=math.log(Pf/Pi)/t; print(Z)\"",
+        "result": 0.0916290731874155
+    },
+    {
+        "equation": "Calculate the gross profit margin $Z$: $$Z = \\frac{R - C}{R} \\times 100$$ Given revenue $R=50000$ and cost of goods $C=30000$.",
+        "predicted_python": "python -c \"R=50000; C=30000; Z=((R-C)/R)*100; print(Z)\"",
+        "result": 40.0
+    },
+    {
+        "equation": "Find the cross product magnitude $Z$ of two vectors with angle $\\theta$: $$Z = |A||B|\\sin(\\theta)$$ Given $|A|=5, |B|=8, \\theta=1.047$ rad.",
+        "predicted_python": "python -c \"import math; A_mag=5; B_mag=8; theta=1.047; Z=A_mag*B_mag*math.sin(theta); print(Z)\"",
+        "result": 34.63706445151291
+    },
+    {
+        "equation": "Calculate the coefficient of restitution $Z$: $$Z = \\frac{v_f}{v_i}$$ Given rebound velocity $v_f=6$ and impact velocity $v_i=10$.",
+        "predicted_python": "python -c \"vf=6; vi=10; Z=vf/vi; print(Z)\"",
+        "result": 0.6
+    },
+    {
+        "equation": "Find the shear stress $Z$: $$Z = \\frac{F}{A}$$ Given parallel force $F=1500$ and area $A=0.05$.",
+        "predicted_python": "python -c \"F=1500; A=0.05; Z=F/A; print(Z)\"",
+        "result": 30000.0
+    },
+    {
+        "equation": "Calculate the phase angle $Z$ in an RLC circuit: $$Z = \\arctan\\left(\\frac{X_L - X_C}{R}\\right)$$ Given inductive reactance $X_L=50$, capacitive reactance $X_C=20$, resistance $R=40$.",
+        "predicted_python": "python -c \"import math; XL=50; XC=20; R=40; Z=math.atan((XL-XC)/R); print(Z)\"",
+        "result": 0.6435011087932844
+    },
+    {
+        "equation": "Find the mechanical advantage $Z$ of a lever: $$Z = \\frac{D_{effort}}{D_{load}}$$ Given effort distance $D_{effort}=5$ and load distance $D_{load}=1.25$.",
+        "predicted_python": "python -c \"D_eff=5; D_load=1.25; Z=D_eff/D_load; print(Z)\"",
+        "result": 4.0
+    }
+]

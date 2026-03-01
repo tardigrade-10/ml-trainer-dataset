@@ -1,0 +1,602 @@
+[
+    {
+        "equation": "Calculate the final amount $Z$ for simple interest: $$Z = P(1 + rt)$$ Given $P = 5000$, $r = 0.07$, and $t = 5$.",
+        "predicted_python": "python -c \"P=5000; r=0.07; t=5; Z=P*(1 + r*t); print(Z)\"",
+        "result": 6750.0
+    },
+    {
+        "equation": "Find the area $Z$ of a circle: $$Z = \\pi r^2$$ Given $r = 14$.",
+        "predicted_python": "python -c \"import math; r=14; Z=math.pi * r**2; print(Z)\"",
+        "result": 615.7521601035994
+    },
+    {
+        "equation": "Calculate the force $Z$ using Newton's Second Law: $$Z = ma$$ Given $m = 12.5$ and $a = 9.8$.",
+        "predicted_python": "python -c \"m=12.5; a=9.8; Z=m*a; print(Z)\"",
+        "result": 122.50000000000001
+    },
+    {
+        "equation": "Convert Fahrenheit to Celsius $Z$: $$Z = (F - 32) \\times \\frac{5}{9}$$ Given $F = 98.6$.",
+        "predicted_python": "python -c \"F=98.6; Z=(F-32)*(5/9); print(Z)\"",
+        "result": 37.0
+    },
+    {
+        "equation": "Find the hypotenuse $Z$ of a right triangle: $$Z = \\sqrt{a^2 + b^2}$$ Given $a = 8$ and $b = 15$.",
+        "predicted_python": "python -c \"import math; a=8; b=15; Z=math.sqrt(a**2 + b**2); print(Z)\"",
+        "result": 17.0
+    },
+    {
+        "equation": "Calculate kinetic energy $Z$: $$Z = \\frac{1}{2}mv^2$$ Given $m = 2$ and $v = 10$.",
+        "predicted_python": "python -c \"m=2; v=10; Z=0.5*m*v**2; print(Z)\"",
+        "result": 100.0
+    },
+    {
+        "equation": "Find the volume $Z$ of a sphere: $$Z = \\frac{4}{3}\\pi r^3$$ Given $r = 3$.",
+        "predicted_python": "python -c \"import math; r=3; Z=(4/3)*math.pi*r**3; print(Z)\"",
+        "result": 113.09733552923254
+    },
+    {
+        "equation": "Calculate the gravitational potential energy $Z$: $$Z = mgh$$ Given $m = 10$, $g = 9.81$, and $h = 5$.",
+        "predicted_python": "python -c \"m=10; g=9.81; h=5; Z=m*g*h; print(Z)\"",
+        "result": 490.50000000000006
+    },
+    {
+        "equation": "Find the root $Z$ of a quadratic using the positive discriminant: $$Z = \\frac{-b + \\sqrt{b^2 - 4ac}}{2a}$$ Given $a = 1, b = -5, c = 6$.",
+        "predicted_python": "python -c \"import math; a=1; b=-5; c=6; Z=(-b + math.sqrt(b**2 - 4*a*c))/(2*a); print(Z)\"",
+        "result": 3.0
+    },
+    {
+        "equation": "Calculate the pressure $Z$: $$Z = \\frac{F}{A}$$ Given $F = 500$ and $A = 0.25$.",
+        "predicted_python": "python -c \"F=500; A=0.25; Z=F/A; print(Z)\"",
+        "result": 2000.0
+    },
+    {
+        "equation": "Find the diagonal $Z$ of a cube: $$Z = s\\sqrt{3}$$ Given $s = 10$.",
+        "predicted_python": "python -c \"import math; s=10; Z=s*math.sqrt(3); print(Z)\"",
+        "result": 17.32050807568877
+    },
+    {
+        "equation": "Calculate the power $Z$ in an electrical circuit: $$Z = I^2 R$$ Given $I = 5$ and $R = 20$.",
+        "predicted_python": "python -c \"I=5; R=20; Z=(I**2)*R; print(Z)\"",
+        "result": 500.0
+    },
+    {
+        "equation": "Determine the density $Z$: $$Z = \\frac{m}{V}$$ Given $m = 200$ and $V = 40$.",
+        "predicted_python": "python -c \"m=200; V=40; Z=m/V; print(Z)\"",
+        "result": 5.0
+    },
+    {
+        "equation": "Find the arc length $Z$ of a circle sector: $$Z = r\\theta$$ Given $r = 10$ and $\\theta = 1.57$ radians.",
+        "predicted_python": "python -c \"r=10; theta=1.57; Z=r*theta; print(Z)\"",
+        "result": 15.700000000000001
+    },
+    {
+        "equation": "Calculate the future value $Z$ with continuous compounding: $$Z = Pe^{rt}$$ Given $P = 1000, r = 0.05, t = 2$.",
+        "predicted_python": "python -c \"import math; P=1000; r=0.05; t=2; Z=P*math.exp(r*t); print(Z)\"",
+        "result": 1105.1709180756477
+    },
+    {
+        "equation": "Find the work done $Z$: $$Z = Fd \\cos(\\theta)$$ Given $F = 50, d = 10, \\theta = 0$.",
+        "predicted_python": "python -c \"import math; F=50; d=10; theta=0; Z=F*d*math.cos(theta); print(Z)\"",
+        "result": 500.0
+    },
+    {
+        "equation": "Calculate the BMI $Z$: $$Z = \\frac{mass}{height^2}$$ Given $mass = 70$ and $height = 1.75$.",
+        "predicted_python": "python -c \"m=70; h=1.75; Z=m/(h**2); print(Z)\"",
+        "result": 22.857142857142858
+    },
+    {
+        "equation": "Find the surface area $Z$ of a cylinder: $$Z = 2\\pi rh + 2\\pi r^2$$ Given $r = 5$ and $h = 10$.",
+        "predicted_python": "python -c \"import math; r=5; h=10; Z=2*math.pi*r*h + 2*math.pi*r**2; print(Z)\"",
+        "result": 471.23889803846896
+    },
+    {
+        "equation": "Calculate the frequency $Z$ of a wave: $$Z = \\frac{v}{\\lambda}$$ Given $v = 343$ and $\\lambda = 0.5$.",
+        "predicted_python": "python -c \"v=343; lam=0.5; Z=v/lam; print(Z)\"",
+        "result": 686.0
+    },
+    {
+        "equation": "Find the voltage $Z$ using Ohm's Law: $$Z = IR$$ Given $I = 2.5$ and $R = 40$.",
+        "predicted_python": "python -c \"I=2.5; R=40; Z=I*R; print(Z)\"",
+        "result": 100.0
+    },
+    {
+        "equation": "Calculate the slope $Z$ of a line: $$Z = \\frac{y_2 - y_1}{x_2 - x_1}$$ Given $x_1=1, y_1=2, x_2=4, y_2=10$.",
+        "predicted_python": "python -c \"x1=1; y1=2; x2=4; y2=10; Z=(y2-y1)/(x2-x1); print(Z)\"",
+        "result": 2.6666666666666665
+    },
+    {
+        "equation": "Find the escape velocity $Z$: $$Z = \\sqrt{\\frac{2GM}{R}}$$ Given $G=6.67e-11, M=5.97e24, R=6.37e6$.",
+        "predicted_python": "python -c \"import math; G=6.67e-11; M=5.97e24; R=6.37e6; Z=math.sqrt((2*G*M)/R); print(Z)\"",
+        "result": 11181.37889121678
+    },
+    {
+        "equation": "Calculate the period $Z$ of a pendulum: $$Z = 2\\pi\\sqrt{\\frac{L}{g}}$$ Given $L=2$ and $g=9.8$.",
+        "predicted_python": "python -c \"import math; L=2; g=9.8; Z=2*math.pi*math.sqrt(L/g); print(Z)\"",
+        "result": 2.838453790227457
+    },
+    {
+        "equation": "Find the area $Z$ of a trapezoid: $$Z = \\frac{a+b}{2}h$$ Given $a=5, b=9, h=4$.",
+        "predicted_python": "python -c \"a=5; b=9; h=4; Z=((a+b)/2)*h; print(Z)\"",
+        "result": 28.0
+    },
+    {
+        "equation": "Calculate the centripetal force $Z$: $$Z = \\frac{mv^2}{r}$$ Given $m=1000, v=20, r=50$.",
+        "predicted_python": "python -c \"m=1000; v=20; r=50; Z=(m*v**2)/r; print(Z)\"",
+        "result": 8000.0
+    },
+    {
+        "equation": "Find the midpoint $Z$ (average) of two numbers: $$Z = \\frac{x+y}{2}$$ Given $x=15, y=35$.",
+        "predicted_python": "python -c \"x=15; y=35; Z=(x+y)/2; print(Z)\"",
+        "result": 25.0
+    },
+    {
+        "equation": "Calculate the torque $Z$: $$Z = rF\\sin(\\theta)$$ Given $r=0.5, F=100, \\theta=1.57$.",
+        "predicted_python": "python -c \"import math; r=0.5; F=100; theta=1.57; Z=r*F*math.sin(theta); print(Z)\"",
+        "result": 49.99998414659173
+    },
+    {
+        "equation": "Find the total resistance $Z$ in parallel: $$Z = \\frac{1}{\\frac{1}{R_1} + \\frac{1}{R_2}}$$ Given $R_1=10, R_2=20$.",
+        "predicted_python": "python -c \"R1=10; R2=20; Z=1/(1/R1 + 1/R2); print(Z)\"",
+        "result": 6.666666666666666
+    },
+    {
+        "equation": "Calculate distance $Z$ using the Pythagorean theorem in 3D: $$Z = \\sqrt{x^2 + y^2 + z^2}$$ Given $x=3, y=4, z=5$.",
+        "predicted_python": "python -c \"import math; x=3; y=4; z=5; Z=math.sqrt(x**2 + y**2 + z**2); print(Z)\"",
+        "result": 7.0710678118654755
+    },
+    {
+        "equation": "Calculate the efficiency $Z$ of an engine: $$Z = \\frac{W}{Q_h} \\times 100$$ Given $W=500$ and $Q_h=2000$.",
+        "predicted_python": "python -c \"W=500; Qh=2000; Z=(W/Qh)*100; print(Z)\"",
+        "result": 25.0
+    },
+    {
+        "equation": "Calculate the Lorentz factor $Z$: $$Z = \\frac{1}{\\sqrt{1 - v^2/c^2}}$$ Given $v = 0.6c$ (so $v/c = 0.6$).",
+        "predicted_python": "python -c \"import math; ratio=0.6; Z=1/math.sqrt(1 - ratio**2); print(Z)\"",
+        "result": 1.25
+    },
+    {
+        "equation": "Find the energy $Z$ of a photon: $$Z = \\frac{hc}{\\lambda}$$ Given $h = 6.626e-34$, $c = 3e8$, and $\\lambda = 500e-9$.",
+        "predicted_python": "python -c \"h=6.626e-34; c=3e8; lam=500e-9; Z=(h*c)/lam; print(Z)\"",
+        "result": 3.9756000000000003e-19
+    },
+    {
+        "equation": "Calculate the volume $Z$ of a cone: $$Z = \\frac{1}{3}\\pi r^2 h$$ Given $r = 4$ and $h = 12$.",
+        "predicted_python": "python -c \"import math; r=4; h=12; Z=(1/3)*math.pi*(r**2)*h; print(Z)\"",
+        "result": 201.06192982974676
+    },
+    {
+        "equation": "Find the gravitational force $Z$: $$Z = G \\frac{m_1 m_2}{r^2}$$ Given $G=6.674e-11, m_1=100, m_2=200, r=2$.",
+        "predicted_python": "python -c \"G=6.674e-11; m1=100; m2=200; r=2; Z=G*(m1*m2)/(r**2); print(Z)\"",
+        "result": 3.337e-07
+    },
+    {
+        "equation": "Calculate the pH $Z$ of a solution: $$Z = -\\log_{10}([H^+])$$ Given $[H^+] = 0.001$.",
+        "predicted_python": "python -c \"import math; h_plus=0.001; Z=-math.log10(h_plus); print(Z)\"",
+        "result": 3.0
+    },
+    {
+        "equation": "Find the displacement $Z$ using kinematics: $$Z = v_i t + \\frac{1}{2}at^2$$ Given $v_i=5, t=10, a=2$.",
+        "predicted_python": "python -c \"vi=5; t=10; a=2; Z=vi*t + 0.5*a*(t**2); print(Z)\"",
+        "result": 150.0
+    },
+    {
+        "equation": "Calculate the magnification $Z$ of a lens: $$Z = -\\frac{d_i}{d_o}$$ Given $d_i=15$ and $d_o=5$.",
+        "predicted_python": "python -c \"di=15; do=5; Z=-(di/do); print(Z)\"",
+        "result": -3.0
+    },
+    {
+        "equation": "Find the area $Z$ of an ellipse: $$Z = \\pi ab$$ Given $a=7$ and $b=3$.",
+        "predicted_python": "python -c \"import math; a=7; b=3; Z=math.pi*a*b; print(Z)\"",
+        "result": 65.97344572538566
+    },
+    {
+        "equation": "Calculate the frequency $Z$ of a spring-mass system: $$Z = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$$ Given $k=200$ and $m=2$.",
+        "predicted_python": "python -c \"import math; k=200; m=2; Z=(1/(2*math.pi))*math.sqrt(k/m); print(Z)\"",
+        "result": 1.5915494309189535
+    },
+    {
+        "equation": "Find the Mach number $Z$: $$Z = \\frac{v}{a}$$ Given object speed $v=680$ and speed of sound $a=340$.",
+        "predicted_python": "python -c \"v=680; a=340; Z=v/a; print(Z)\"",
+        "result": 2.0
+    },
+    {
+        "equation": "Calculate the capacitance $Z$: $$Z = \\frac{Q}{V}$$ Given $Q=0.01$ and $V=5$.",
+        "predicted_python": "python -c \"Q=0.01; V=5; Z=Q/V; print(Z)\"",
+        "result": 0.002
+    },
+    {
+        "equation": "Find the heat $Z$ required for temperature change: $$Z = mc\\Delta T$$ Given $m=2, c=4184, \\Delta T=10$.",
+        "predicted_python": "python -c \"m=2; c=4184; dt=10; Z=m*c*dt; print(Z)\"",
+        "result": 83680.0
+    },
+    {
+        "equation": "Calculate the refractive index $Z$: $$Z = \\frac{c}{v}$$ Given $c=3e8$ and $v=2e8$.",
+        "predicted_python": "python -c \"c=3e8; v=2e8; Z=c/v; print(Z)\"",
+        "result": 1.5
+    },
+    {
+        "equation": "Find the impulse $Z$: $$Z = F \\Delta t$$ Given $F=150$ and $\\Delta t=0.1$.",
+        "predicted_python": "python -c \"F=150; dt=0.1; Z=F*dt; print(Z)\"",
+        "result": 15.0
+    },
+    {
+        "equation": "Calculate the surface area $Z$ of a sphere: $$Z = 4\\pi r^2$$ Given $r=10$.",
+        "predicted_python": "python -c \"import math; r=10; Z=4*math.pi*(r**2); print(Z)\"",
+        "result": 1256.6370614359173
+    },
+    {
+        "equation": "Find the tension $Z$ in a rope lifting a mass: $$Z = m(g + a)$$ Given $m=10, g=9.8, a=2$.",
+        "predicted_python": "python -c \"m=10; g=9.8; a=2; Z=m*(g+a); print(Z)\"",
+        "result": 118.0
+    },
+    {
+        "equation": "Calculate the Decibel level $Z$: $$Z = 10\\log_{10}(\\frac{I}{I_0})$$ Given $I=1e-5$ and $I_0=1e-12$.",
+        "predicted_python": "python -c \"import math; I=1e-5; I0=1e-12; Z=10*math.log10(I/I0); print(Z)\"",
+        "result": 70.0
+    },
+    {
+        "equation": "Find the side $Z$ of a square with area $A$: $$Z = \\sqrt{A}$$ Given $A=256$.",
+        "predicted_python": "python -c \"import math; A=256; Z=math.sqrt(A); print(Z)\"",
+        "result": 16.0
+    },
+    {
+        "equation": "Calculate the angular momentum $Z$: $$Z = I\\omega$$ Given $I=5$ and $\\omega=10$.",
+        "predicted_python": "python -c \"I=5; w=10; Z=I*w; print(Z)\"",
+        "result": 50.0
+    },
+    {
+        "equation": "Find the weight $Z$ on the Moon: $$Z = m \\times g_{moon}$$ Given $m=70$ and $g_{moon}=1.62$.",
+        "predicted_python": "python -c \"m=70; gm=1.62; Z=m*gm; print(Z)\"",
+        "result": 113.4
+    },
+    {
+        "equation": "Calculate the profit $Z$: $$Z = S - C$$ Given Selling Price $S=1500$ and Cost Price $C=1200$.",
+        "predicted_python": "python -c \"S=1500; C=1200; Z=S-C; print(Z)\"",
+        "result": 300.0
+    },
+    {
+        "equation": "Find the volume $Z$ of a pyramid: $$Z = \\frac{1}{3}Bh$$ Given base area $B=30$ and height $h=10$.",
+        "predicted_python": "python -c \"B=30; h=10; Z=(1/3)*B*h; print(Z)\"",
+        "result": 100.0
+    },
+    {
+        "equation": "Calculate the speed $Z$: $$Z = \\frac{d}{t}$$ Given distance $d=500$ and time $t=20$.",
+        "predicted_python": "python -c \"d=500; t=20; Z=d/t; print(Z)\"",
+        "result": 25.0
+    },
+    {
+        "equation": "Find the sum $Z$ of an arithmetic series: $$Z = \\frac{n}{2}(a+l)$$ Given $n=10, a=5, l=50$.",
+        "predicted_python": "python -c \"n=10; a=5; l=50; Z=(n/2)*(a+l); print(Z)\"",
+        "result": 275.0
+    },
+    {
+        "equation": "Calculate the molarity $Z$: $$Z = \\frac{n}{V}$$ Given moles $n=2$ and volume $V=0.5$.",
+        "predicted_python": "python -c \"n=2; V=0.5; Z=n/V; print(Z)\"",
+        "result": 4.0
+    },
+    {
+        "equation": "Find the force $Z$ of a spring (Hooke's Law): $$Z = -kx$$ Given $k=50$ and $x=0.2$.",
+        "predicted_python": "python -c \"k=50; x=0.2; Z=-(k*x); print(Z)\"",
+        "result": -10.0
+    },
+    {
+        "equation": "Calculate the escape velocity $Z$ on a planet: $$Z = \\sqrt{2gr}$$ Given $g=9.8$ and $r=6.37e6$.",
+        "predicted_python": "python -c \"import math; g=9.8; r=6.37e6; Z=math.sqrt(2*g*r); print(Z)\"",
+        "result": 11173.719165971554
+    },
+    {
+        "equation": "Find the density $Z$ of a cube: $$Z = \\frac{m}{s^3}$$ Given $m=500$ and side $s=5$.",
+        "predicted_python": "python -c \"m=500; s=5; Z=m/(s**3); print(Z)\"",
+        "result": 4.0
+    },
+    {
+        "equation": "Calculate the work $Z$ against gravity: $$Z = mgh$$ Given $m=5, g=9.8, h=20$.",
+        "predicted_python": "python -c \"m=5; g=9.8; h=20; Z=m*g*h; print(Z)\"",
+        "result": 980.0
+    },
+    {
+        "equation": "Find the final temperature $Z$ after mixing: $$Z = \\frac{m_1T_1 + m_2T_2}{m_1+m_2}$$ Given $m_1=1, T_1=20, m_2=1, T_2=80$.",
+        "predicted_python": "python -c \"m1=1; T1=20; m2=1; T2=80; Z=(m1*T1 + m2*T2)/(m1+m2); print(Z)\"",
+        "result": 50.0
+    },
+    {
+        "equation": "Calculate the freefall time $Z$ for a stunt performer dropping from a building: $$Z = \\sqrt{\\frac{2h}{g}}$$ Given height $h = 50$ and gravity $g = 9.8$.",
+        "predicted_python": "python -c \"import math; h=50; g=9.8; Z=math.sqrt((2*h)/g); print(Z)\"",
+        "result": 3.1943828249996997
+    },
+    {
+        "equation": "Find the horizontal range $Z$ of a car jumping off a ramp: $$Z = \\frac{v^2 \\sin(2\\theta)}{g}$$ Given velocity $v = 30$, launch angle $\\theta = 0.523$ radians, and $g = 9.8$.",
+        "predicted_python": "python -c \"import math; v=30; theta=0.523; g=9.8; Z=((v**2)*math.sin(2*theta))/g; print(Z)\"",
+        "result": 79.47789863265164
+    },
+    {
+        "equation": "Calculate the average impact force $Z$ of a car crash using work-energy: $$Z = \\frac{\\frac{1}{2}mv^2}{d}$$ Given mass $m = 1500$, velocity $v = 20$, and crumple distance $d = 1.5$.",
+        "predicted_python": "python -c \"m=1500; v=20; d=1.5; Z=(0.5*m*(v**2))/d; print(Z)\"",
+        "result": 200000.0
+    },
+    {
+        "equation": "Find the tension $Z$ in a cable swinging a mass (like a pendulum at the lowest point): $$Z = m(g + \\frac{v^2}{r})$$ Given $m = 80, g = 9.8, v = 15, r = 20$.",
+        "predicted_python": "python -c \"m=80; g=9.8; v=15; r=20; Z=m*(g + (v**2)/r); print(Z)\"",
+        "result": 1684.0
+    },
+    {
+        "equation": "Calculate the side $Z$ of a triangle using the Law of Cosines: $$Z = \\sqrt{a^2 + b^2 - 2ab\\cos(C)}$$ Given $a=10, b=15, C=1.047$ rad.",
+        "predicted_python": "python -c \"import math; a=10; b=15; C=1.047; Z=math.sqrt(a**2 + b**2 - 2*a*b*math.cos(C)); print(Z)\"",
+        "result": 13.22681660948238
+    },
+    {
+        "equation": "Find the area $Z$ of a triangle using trigonometry: $$Z = \\frac{1}{2}ab\\sin(C)$$ Given $a=8, b=12, C=0.785$ rad.",
+        "predicted_python": "python -c \"import math; a=8; b=12; C=0.785; Z=0.5*a*b*math.sin(C); print(Z)\"",
+        "result": 33.927608693057564
+    },
+    {
+        "equation": "Evaluate the derivative $Z$ of $f(x) = ax^2 + bx$ at a point $x$: $$Z = 2ax + b$$ Given $a=3, b=4, x=5$.",
+        "predicted_python": "python -c \"a=3; b=4; x=5; Z=2*a*x + b; print(Z)\"",
+        "result": 34.0
+    },
+    {
+        "equation": "Calculate the definite integral $Z$ of $cx$ from $x=0$ to $x=d$: $$Z = \\frac{c}{2}d^2$$ Given $c=4, d=5$.",
+        "predicted_python": "python -c \"c=4; d=5; Z=(c/2)*(d**2); print(Z)\"",
+        "result": 50.0
+    },
+    {
+        "equation": "Find the terminal velocity $Z$: $$Z = \\sqrt{\\frac{2mg}{\\rho A C_d}}$$ Given $m=70, g=9.8, \\rho=1.225, A=0.7, C_d=1.0$.",
+        "predicted_python": "python -c \"import math; m=70; g=9.8; rho=1.225; A=0.7; Cd=1.0; Z=math.sqrt((2*m*g)/(rho*A*Cd)); print(Z)\"",
+        "result": 40.0
+    },
+    {
+        "equation": "Calculate the standard deviation $Z$ of a population variance $V$: $$Z = \\sqrt{V}$$ Given $V=144$.",
+        "predicted_python": "python -c \"import math; V=144; Z=math.sqrt(V); print(Z)\"",
+        "result": 12.0
+    },
+    {
+        "equation": "Find the number of combinations $Z$ ($n$ choose $k$): $$Z = \\frac{n!}{k!(n-k)!}$$ Given $n=10, k=3$.",
+        "predicted_python": "python -c \"import math; n=10; k=3; Z=math.factorial(n)/(math.factorial(k)*math.factorial(n-k)); print(Z)\"",
+        "result": 120.0
+    },
+    {
+        "equation": "Calculate the Z-score $Z$: $$Z = \\frac{X - \\mu}{\\sigma}$$ Given $X=85, \\mu=70, \\sigma=5$.",
+        "predicted_python": "python -c \"X=85; mu=70; sigma=5; Z=(X-mu)/sigma; print(Z)\"",
+        "result": 3.0
+    },
+    {
+        "equation": "Find the dot product $Z$ of two 2D vectors $(x_1, y_1)$ and $(x_2, y_2)$: $$Z = x_1 x_2 + y_1 y_2$$ Given $x_1=3, y_1=4, x_2=-2, y_2=5$.",
+        "predicted_python": "python -c \"x1=3; y1=4; x2=-2; y2=5; Z=x1*x2 + y1*y2; print(Z)\"",
+        "result": 14.0
+    },
+    {
+        "equation": "Calculate the magnitude $Z$ of a 3D vector: $$Z = \\sqrt{x^2 + y^2 + z^2}$$ Given $x=2, y=-3, z=6$.",
+        "predicted_python": "python -c \"import math; x=2; y=-3; z=6; Z=math.sqrt(x**2 + y**2 + z**2); print(Z)\"",
+        "result": 7.0
+    },
+    {
+        "equation": "Find the determinant $Z$ of a 2x2 matrix: $$Z = ad - bc$$ Given $a=4, b=2, c=3, d=5$.",
+        "predicted_python": "python -c \"a=4; b=2; c=3; d=5; Z=a*d - b*c; print(Z)\"",
+        "result": 14.0
+    },
+    {
+        "equation": "Calculate the buoyant force $Z$: $$Z = \\rho V g$$ Given fluid density $\\rho=1000$, volume $V=2.5$, and $g=9.8$.",
+        "predicted_python": "python -c \"rho=1000; V=2.5; g=9.8; Z=rho*V*g; print(Z)\"",
+        "result": 24500.0
+    },
+    {
+        "equation": "Find the linear thermal expansion $Z$: $$Z = \\alpha L_0 \\Delta T$$ Given coefficient $\\alpha=1.2e-5$, length $L_0=100$, and temp change $\\Delta T=50$.",
+        "predicted_python": "python -c \"alpha=1.2e-5; L0=100; dT=50; Z=alpha*L0*dT; print(Z)\"",
+        "result": 0.060000000000000005
+    },
+    {
+        "equation": "Calculate the observed frequency $Z$ (Doppler effect, source moving towards observer): $$Z = f \\left(\\frac{v}{v - v_s}\\right)$$ Given $f=500, v=343, v_s=30$.",
+        "predicted_python": "python -c \"f=500; v=343; vs=30; Z=f*(v/(v-vs)); print(Z)\"",
+        "result": 547.923322683706
+    },
+    {
+        "equation": "Find the remaining mass $Z$ after radioactive decay: $$Z = N_0 e^{-\\lambda t}$$ Given initial mass $N_0=100$, decay constant $\\lambda=0.05$, time $t=10$.",
+        "predicted_python": "python -c \"import math; N0=100; lam=0.05; t=10; Z=N0*math.exp(-lam*t); print(Z)\"",
+        "result": 60.653065971263345
+    },
+    {
+        "equation": "Calculate the electrostatic force $Z$ using Coulomb's Law: $$Z = k \\frac{q_1 q_2}{r^2}$$ Given $k=8.99e9, q_1=1e-6, q_2=2e-6, r=0.05$.",
+        "predicted_python": "python -c \"k=8.99e9; q1=1e-6; q2=2e-6; r=0.05; Z=k*(q1*q2)/(r**2); print(Z)\"",
+        "result": 7.191999999999998
+    },
+    {
+        "equation": "Find the magnetic force $Z$ on a moving charge: $$Z = qvB\\sin(\\theta)$$ Given charge $q=1.6e-19$, velocity $v=3e5$, field $B=1.5$, and angle $\\theta=1.57$ rad.",
+        "predicted_python": "python -c \"import math; q=1.6e-19; v=3e5; B=1.5; theta=1.57; Z=q*v*B*math.sin(theta); print(Z)\"",
+        "result": 7.199997717109209e-14
+    },
+    {
+        "equation": "Calculate the angle of refraction $Z$ using Snell's Law: $$Z = \\arcsin\\left(\\frac{n_1 \\sin(\\theta_1)}{n_2}\\right)$$ Given $n_1=1.0, n_2=1.33, \\theta_1=0.785$ rad.",
+        "predicted_python": "python -c \"import math; n1=1.0; n2=1.33; theta1=0.785; Z=math.asin((n1*math.sin(theta1))/n2); print(Z)\"",
+        "result": 0.5603084454003406
+    },
+    {
+        "equation": "Find the equivalent capacitance $Z$ of two capacitors in series: $$Z = \\frac{C_1 C_2}{C_1 + C_2}$$ Given $C_1=10, C_2=40$.",
+        "predicted_python": "python -c \"C1=10; C2=40; Z=(C1*C2)/(C1+C2); print(Z)\"",
+        "result": 8.0
+    },
+    {
+        "equation": "Calculate the inductive reactance $Z$: $$Z = 2\\pi fL$$ Given frequency $f=60$ and inductance $L=0.05$.",
+        "predicted_python": "python -c \"import math; f=60; L=0.05; Z=2*math.pi*f*L; print(Z)\"",
+        "result": 18.84955592153876
+    },
+    {
+        "equation": "Find the focal length $Z$ from the Lensmaker's Equation: $$Z = \\left((n-1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)\\right)^{-1}$$ Given $n=1.5, R_1=20, R_2=-20$.",
+        "predicted_python": "python -c \"n=1.5; R1=20; R2=-20; Z=1/((n-1)*(1/R1 - 1/R2)); print(Z)\"",
+        "result": 20.0
+    },
+    {
+        "equation": "Calculate the radiated power $Z$ using the Stefan-Boltzmann law: $$Z = \\epsilon \\sigma A T^4$$ Given $\\epsilon=0.9, \\sigma=5.67e-8, A=2.0, T=300$.",
+        "predicted_python": "python -c \"e=0.9; sigma=5.67e-8; A=2.0; T=300; Z=e*sigma*A*(T**4); print(Z)\"",
+        "result": 826.686
+    },
+    {
+        "equation": "Find the temperature $Z$ using the Ideal Gas Law: $$Z = \\frac{PV}{nR}$$ Given $P=101325, V=0.0224, n=1.0, R=8.314$.",
+        "predicted_python": "python -c \"P=101325; V=0.0224; n=1.0; R=8.314; Z=(P*V)/(n*R); print(Z)\"",
+        "result": 272.9949482800096
+    },
+    {
+        "equation": "Calculate the Reynolds number $Z$: $$Z = \\frac{\\rho v D}{\\mu}$$ Given $\\rho=1000, v=2.5, D=0.1, \\mu=0.001$.",
+        "predicted_python": "python -c \"rho=1000; v=2.5; D=0.1; mu=0.001; Z=(rho*v*D)/mu; print(Z)\"",
+        "result": 250000.0
+    },
+    {
+        "equation": "Find the expected value $Z$ of a simple binary event: $$Z = p_1 x_1 + p_2 x_2$$ Given $p_1=0.3, x_1=100, p_2=0.7, x_2=-50$.",
+        "predicted_python": "python -c \"p1=0.3; x1=100; p2=0.7; x2=-50; Z=p1*x1 + p2*x2; print(Z)\"",
+        "result": -5.0
+    },
+    {
+        "equation": "Calculate the conditional probability $Z$ using Bayes' Theorem: $$Z = \\frac{P(B|A) P(A)}{P(B)}$$ Given $P(B|A)=0.8, P(A)=0.05, P(B)=0.1$.",
+        "predicted_python": "python -c \"P_B_A=0.8; P_A=0.05; P_B=0.1; Z=(P_B_A*P_A)/P_B; print(Z)\"",
+        "result": 0.4000000000000001
+    },
+    {
+        "equation": "Find the compound probability $Z$ of independent events: $$Z = P_A \\times P_B \\times P_C$$ Given $P_A=0.5, P_B=0.2, P_C=0.8$.",
+        "predicted_python": "python -c \"Pa=0.5; Pb=0.2; Pc=0.8; Z=Pa*Pb*Pc; print(Z)\"",
+        "result": 0.08000000000000002
+    },
+    {
+        "equation": "Calculate Euler's method single step forward prediction $Z$: $$Z = y_0 + h f(t_0, y_0)$$ Let $f(t,y)=t+y$. Given $y_0=1, h=0.1, t_0=0$.",
+        "predicted_python": "python -c \"y0=1; h=0.1; t0=0; Z=y0 + h*(t0 + y0); print(Z)\"",
+        "result": 1.1
+    },
+    {
+        "equation": "Find the average value $Z$ of function $f(x)=2x$ over interval $[a,b]$: $$Z = \\frac{1}{b-a} \\int_{a}^{b} 2x dx = \\frac{b^2 - a^2}{b-a}$$ Given $a=2, b=6$.",
+        "predicted_python": "python -c \"a=2; b=6; Z=(b**2 - a**2)/(b - a); print(Z)\"",
+        "result": 8.0
+    },
+    {
+        "equation": "Calculate the period $Z$ of a trigonometric function $y = \\sin(kx)$: $$Z = \\frac{2\\pi}{k}$$ Given $k=3$.",
+        "predicted_python": "python -c \"import math; k=3; Z=(2*math.pi)/k; print(Z)\"",
+        "result": 2.0943951023931953
+    },
+    {
+        "equation": "Find the height $Z$ of a building using the angle of elevation: $$Z = d \\tan(\\theta)$$ Given distance $d=100$ and angle $\\theta=0.61$ rad.",
+        "predicted_python": "python -c \"import math; d=100; theta=0.61; Z=d*math.tan(theta); print(Z)\"",
+        "result": 69.89188622773909
+    },
+    {
+        "equation": "Calculate the half-life $Z$: $$Z = \\frac{\\ln(2)}{\\lambda}$$ Given decay constant $\\lambda=0.035$.",
+        "predicted_python": "python -c \"import math; lam=0.035; Z=math.log(2)/lam; print(Z)\"",
+        "result": 19.804205158855577
+    },
+    {
+        "equation": "Find the root mean square (RMS) velocity $Z$: $$Z = \\sqrt{\\frac{3RT}{M}}$$ Given $R=8.314, T=298, M=0.028$.",
+        "predicted_python": "python -c \"import math; R=8.314; T=298; M=0.028; Z=math.sqrt((3*R*T)/M); print(Z)\"",
+        "result": 515.2224207632495
+    },
+    {
+        "equation": "Calculate the photon momentum $Z$: $$Z = \\frac{h}{\\lambda}$$ Given Planck's constant $h=6.626e-34$ and wavelength $\\lambda=4e-7$.",
+        "predicted_python": "python -c \"h=6.626e-34; lam=4e-7; Z=h/lam; print(Z)\"",
+        "result": 1.6565e-27
+    },
+    {
+        "equation": "Find the spring potential energy $Z$: $$Z = \\frac{1}{2}kx^2$$ Given spring constant $k=400$ and displacement $x=0.15$.",
+        "predicted_python": "python -c \"k=400; x=0.15; Z=0.5*k*(x**2); print(Z)\"",
+        "result": 4.5
+    },
+    {
+        "equation": "Calculate the time period $Z$ of an orbit: $$Z = 2\\pi\\sqrt{\\frac{r^3}{GM}}$$ Given $r=7e6, G=6.674e-11, M=5.972e24$.",
+        "predicted_python": "python -c \"import math; r=7e6; G=6.674e-11; M=5.972e24; Z=2*math.pi*math.sqrt((r**3)/(G*M)); print(Z)\"",
+        "result": 5828.729857925566
+    },
+    {
+        "equation": "Calculate the angular velocity $Z$ of a panning camera: $$Z = \\frac{\\theta}{t}$$ Given rotation $\\theta = 1.57$ rad and time $t = 2.5$.",
+        "predicted_python": "python -c \"theta=1.57; t=2.5; Z=theta/t; print(Z)\"",
+        "result": 0.628
+    },
+    {
+        "equation": "Find the minimum coefficient of friction $Z$ required for a stunt car to drift in a circle: $$Z = \\frac{v^2}{rg}$$ Given velocity $v=25$, radius $r=40$, and $g=9.8$.",
+        "predicted_python": "python -c \"v=25; r=40; g=9.8; Z=(v**2)/(r*g); print(Z)\"",
+        "result": 1.594387755102041
+    },
+    {
+        "equation": "Calculate the rotational kinetic energy $Z$ of a flipping car: $$Z = \\frac{1}{2}I\\omega^2$$ Given moment of inertia $I=2500$ and angular velocity $\\omega=3.14$.",
+        "predicted_python": "python -c \"I=2500; w=3.14; Z=0.5*I*(w**2); print(Z)\"",
+        "result": 12324.5
+    },
+    {
+        "equation": "Convert a fast bowler's delivery speed $Z$ from km/h to m/s: $$Z = v \\times \\frac{5}{18}$$ Given speed $v=145$.",
+        "predicted_python": "python -c \"v=145; Z=v*(5/18); print(Z)\"",
+        "result": 40.27777777777778
+    },
+    {
+        "equation": "Calculate a batsman's strike rate $Z$: $$Z = \\frac{R}{B} \\times 100$$ Given runs $R=85$ and balls faced $B=52$.",
+        "predicted_python": "python -c \"R=85; B=52; Z=(R/B)*100; print(Z)\"",
+        "result": 163.46153846153845
+    },
+    {
+        "equation": "Find the time $Z$ it takes for a cricket ball to reach the stumps: $$Z = \\frac{d}{v}$$ Given pitch length $d=20.12$ and velocity $v=38.8$.",
+        "predicted_python": "python -c \"d=20.12; v=38.8; Z=d/v; print(Z)\"",
+        "result": 0.5185567010309279
+    },
+    {
+        "equation": "Calculate the batting average $Z$: $$Z = \\frac{R}{I - N}$$ Given total runs $R=5400$, innings $I=120$, and not-outs $N=15$.",
+        "predicted_python": "python -c \"R=5400; I=120; N=15; Z=R/(I-N); print(Z)\"",
+        "result": 51.42857142857143
+    },
+    {
+        "equation": "Find the Price-to-Earnings (P/E) ratio $Z$ of a stock: $$Z = \\frac{P}{E}$$ Given share price $P=850$ and earnings per share $E=42.5$.",
+        "predicted_python": "python -c \"P=850; E=42.5; Z=P/E; print(Z)\"",
+        "result": 20.0
+    },
+    {
+        "equation": "Calculate the dividend yield $Z$ as a percentage: $$Z = \\frac{D}{P} \\times 100$$ Given annual dividend $D=15$ and share price $P=300$.",
+        "predicted_python": "python -c \"D=15; P=300; Z=(D/P)*100; print(Z)\"",
+        "result": 5.0
+    },
+    {
+        "equation": "Find the Return on Investment (ROI) $Z$: $$Z = \\frac{V_f - V_i}{V_i} \\times 100$$ Given final value $V_f=1250$ and initial investment $V_i=1000$.",
+        "predicted_python": "python -c \"Vf=1250; Vi=1000; Z=((Vf-Vi)/Vi)*100; print(Z)\"",
+        "result": 25.0
+    },
+    {
+        "equation": "Calculate the theoretical post-demerger stock price $Z$: $$Z = P_{pre} - P_{spin}$$ Given pre-merger price $P_{pre}=1050$ and spinoff value $P_{spin}=200$.",
+        "predicted_python": "python -c \"P_pre=1050; P_spin=200; Z=P_pre - P_spin; print(Z)\"",
+        "result": 850.0
+    },
+    {
+        "equation": "Calculate sleep efficiency $Z$: $$Z = \\frac{T_{asleep}}{T_{bed}} \\times 100$$ Given time asleep $T_{asleep}=6.5$ hours and time in bed $T_{bed}=8.0$ hours.",
+        "predicted_python": "python -c \"T_asleep=6.5; T_bed=8.0; Z=(T_asleep/T_bed)*100; print(Z)\"",
+        "result": 81.25
+    },
+    {
+        "equation": "Find the percentage of REM sleep $Z$: $$Z = \\frac{T_{REM}}{T_{total}} \\times 100$$ Given REM time $T_{REM}=90$ mins and total sleep $T_{total}=420$ mins.",
+        "predicted_python": "python -c \"T_rem=90; T_tot=420; Z=(T_rem/T_tot)*100; print(Z)\"",
+        "result": 21.428571428571427
+    },
+    {
+        "equation": "Calculate the ratio of simulated threat dreams $Z$: $$Z = \\frac{D_{threat}}{D_{total}}$$ Given threat dreams $D_{threat}=12$ and total recorded dreams $D_{total}=45$.",
+        "predicted_python": "python -c \"D_threat=12; D_total=45; Z=D_threat/D_total; print(Z)\"",
+        "result": 0.26666666666666666
+    },
+    {
+        "equation": "Calculate the stress $Z$ on the base of a historical stone pillar: $$Z = \\frac{F}{A}$$ Given force $F=500000$ and cross-sectional area $A=2.5$.",
+        "predicted_python": "python -c \"F=500000; A=2.5; Z=F/A; print(Z)\"",
+        "result": 200000.0
+    },
+    {
+        "equation": "Find the launch velocity $Z$ of a counterweight trebuchet (simplified energy conversion): $$Z = \\sqrt{\\frac{2 M g h}{m}}$$ Given counterweight $M=5000$, projectile $m=100$, drop height $h=5$, $g=9.8$.",
+        "predicted_python": "python -c \"import math; M=5000; m=100; h=5; g=9.8; Z=math.sqrt((2*M*g*h)/m); print(Z)\"",
+        "result": 70.0
+    },
+    {
+        "equation": "Calculate the volume $Z$ of a rectangular stepwell cistern: $$Z = l w h$$ Given length $l=30$, width $w=15$, and depth $h=20$.",
+        "predicted_python": "python -c \"l=30; w=15; h=20; Z=l*w*h; print(Z)\"",
+        "result": 9000.0
+    },
+    {
+        "equation": "Find the water pressure $Z$ at the bottom of a stepwell: $$Z = \\rho g h$$ Given water density $\\rho=1000$, gravity $g=9.8$, and depth $h=15$.",
+        "predicted_python": "python -c \"rho=1000; g=9.8; h=15; Z=rho*g*h; print(Z)\"",
+        "result": 147000.0
+    },
+    {
+        "equation": "Calculate Shannon Entropy $Z$ for a fair coin toss: $$Z = - (p \\log_2(p) + (1-p) \\log_2(1-p))$$ Given $p=0.5$.",
+        "predicted_python": "python -c \"import math; p=0.5; Z=-(p*math.log2(p) + (1-p)*math.log2(1-p)); print(Z)\"",
+        "result": 1.0
+    },
+    {
+        "equation": "Find the critical angle $Z$ in optics: $$Z = \\arcsin\\left(\\frac{n_2}{n_1}\\right)$$ Given $n_1=1.52$ (glass) and $n_2=1.0$ (air).",
+        "predicted_python": "python -c \"import math; n1=1.52; n2=1.0; Z=math.asin(n2/n1); print(Z)\"",
+        "result": 0.7180199093984886
+    }
+]
